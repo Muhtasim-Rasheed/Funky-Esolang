@@ -1,0 +1,3 @@
+setVar("A", "Funky! Hello World!") // set variable A to "Funky! Hello World!"
+println(getVar("A")) // get variable A and print it out
+exit(0)

@@ -1,0 +1,15 @@
+(async () => {
+    await input("x")
+
+    assert(getVar("x") === "1", () => {
+        loop(0, Infinity, 1, () => {
+            print("1") // Print 1 for the rest of eternity
+        })
+    }, () => {
+        assert(getVar("x") === "0", () => {
+            println("0")
+        })
+    })
+
+    exit(0)
+})()

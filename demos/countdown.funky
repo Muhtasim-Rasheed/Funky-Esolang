@@ -1,0 +1,4 @@
+loop(10, 0, -1, i => {
+    println(i)
+})
+exit(0)

@@ -1,0 +1,3 @@
+readFile("./demos/demo.txt", "x")
+println(getVar("x"))
+exit(0)
